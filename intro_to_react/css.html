@@ -1,0 +1,57 @@
+<head>
+    <style>
+        body {
+            text-align: center;
+            background-color: gray;
+        }
+        p {
+            color: red;
+            font-weight: lighter;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #identification{
+            color: orange;
+            font-weight: bolder;
+        }
+        .Heading3 {
+            color: white;
+            text-align: left;
+        }
+        /* descendent children and children */
+        div p{
+            color: aqua;
+        }
+/* child selector only direct children*/
+        section > p{
+            text-align: center;
+        }
+        /* adjacent sibling only the immediatly folllwoing */
+        h2 + p{
+            color: orange;
+        }
+        /* general not the chikdren but the adjacent*/
+        button ~ p{
+            color: black;
+        }
+    </style>
+    <head></head>
+    <body style="width: 10px;" class="headling">
+        <h3 class="Heading3" style="text-align: right">
+            This is the first  third heading
+        </h3>
+        <p> Paragraph </p>
+        <p id="identification">
+            This has been id'd
+        </p>
+        <h3 class="Heading3">
+            This is the third heading
+        </h3>
+    </body>
+</head>
+<!-- 
+<style>
+    .headline {
+        color: turquoise;
+    }
+</style>
+ -->

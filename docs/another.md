@@ -1,34 +1,48 @@
-# Heading
-This is another file silly
+<style >
+    
+  .docsify-tabs__content table thead tr th{
+    width: 150px;
+    /* width: -webkit-fill-available */
+  }
+  }
+</style>
 
-> ![Warning]
->  This is another file silly
+# Core Maths
+
+## Grade 8
+
+Click on the 
 
 
-This is another file silly
 
-This is another file silly
 
-This is another file silly
 
-This is another file silly
 
-This is another file silly
 
-This is another file silly
+## Grade 9
 
-This is another file silly
+<!-- tabs:start -->
 
-This is another file silly
+#### **IEB**
+| Year | Paper 1 | Paper 1 Solutions | Paper 2 | Paper 2 Solutions|
+| :----------: |:------------:| :-----------:| :-----------:| :-------------------: |
+|2023 | [Solution](./core_maths/ieb/grade_9/file.md)
+|2022 | 
+|2021 | 
+|2020 | 
+|2019 | 
+|2018 | 
 
-This is another file silly
+#### **DBE**
 
-This is another file silly
 
-This is another file silly
 
-## Subheading
+<!-- tabs:end -->
 
-### Sub Subheading
+## Grade 10
 
-#### This is too far down
+
+## Grade 11
+
+
+## Grade 12
