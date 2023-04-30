@@ -1,1 +1,2 @@
-This is the coverpage
+
+<p style="font-size: 50px;"> Welcome </p>

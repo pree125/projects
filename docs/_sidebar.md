@@ -1,4 +1,5 @@
 * [Home](/)
-* [Another](another.md)
-* [Github](github/overview.md)
-* [Broken page](/page.md)
+* [Core Maths](another.md)
+* [Advanced Program Maths](another.md)
+* [Physical Science](github/overview.md)
+* [Infomation Technology](/page.md)

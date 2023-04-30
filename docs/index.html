@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: #33a7b5;
+    }
+  .sidebar-nav ul li a {
+    color: red;
+  }
+</style>
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -7,23 +16,123 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" /> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css" /> for dark mode -->
+  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme" type="text/css" />
+
+
 </head>
-<body>
+
+<body class="ready">
   <div id="app"></div>
-  <script>
+  <script style="fontalop">
     window.$docsify = {
-      name: 'Pree',
-      repo: '',
-      logo: '/_media/icon.svg',
+
+      name: 'Home',
+      // repo: '',
+      // logo: '/_media/icon.svg',
       loadSidebar: true,
       subMaxLevel: 2,
-      loadNavbar: true,
+      sidebarDisplayLevel: 1,
+      // loadNavbar: true,
       coverpage: true,
       notFoundPage: true,
       nativeEmoji: true,
+      // search: 'auto', 
+      hideOtherSidebarContent: true,
+      // disqus: 'shortname',
+
+      share: {
+        // reddit: true,
+        linkedin: true,
+        linkedin: {
+          url: "www.linkedin.com/in/proboda-senarathne/"
+        },
+        // facebook: true,
+        twitter: true,
+        whatsapp: true,
+        // telegram: true,
+        options: {
+          theme: 'slide-bar'
+        }
+      },
+      tabs: {
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'material', // default
+        tabComments: true,      // default
+        tabHeadings: true  ,     // default
+        
+      },
+      // Good 33a7b5
+      progress: {
+        position: "top",
+        color: "var(--theme-color, #33a7b5)",
+        height: "3px",
+      },
+
+      darklightTheme: {
+        siteFont: "PT Sans",
+        defaultTheme: 'dark',
+        codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize: '17px',
+        dark: {
+          accent: ' #33a7b5',
+          toogleBackground: '#ffffff',
+          background: '##1f1e1e',
+          textColor: '#b4b4b4',
+          codeTextColor: '#ffffff',
+          codeBackgroundColor: '##1f1e1e',
+          borderColor: '#0d2538',
+          blockQuoteColor: '#858585',
+          highlightColor: '#d22778',
+          sidebarSublink: '#b4b4b4',
+          codeTypeColor: '#ffffff',
+          coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
+          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)'
+        },
+        light: {
+          accent: ' #33a7b5',
+          toogleBackground: '#091a28',
+          background: '#ffffff',
+          textColor: '#505d6b',
+          codeTextColor: '#505d6b',
+          codeBackgroundColor: '#f8f8f8',
+          borderColor: 'rgba(0, 0, 0, 0.07)',
+          blockQuoteColor: '#858585',
+          highlightColor: '#d22778',
+          sidebarSublink: '#505d6b',
+          codeTypeColor: '#505d6b',
+          coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
+          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
+        }
+      }
     }
+
   </script>
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script> -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script> -->
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script> for dark mode -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
+
+
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript">
+   </script>
+
+
+  </div>
 </body>
+
 </html>
