@@ -24,6 +24,33 @@
 * Dynamic visualizations:
     * Can even be realtime
     * The more power the user has, the less of the story you can tell. 
-    
+
 * Tableau
     * Analytics 
+
+* Elements of art:
+    * Line
+    * Shape
+    * Color
+    * Shape
+    * Movement
+
+* Always ask:
+    * Which visualization will be most easily understood
+    * Clear meaning
+    * Sophisticated use of contrast
+    * Refined execution
+
+* Data composition: shows part of a whole
+
+Design thinking for data visualization involves five phases:
+
+Empathize: Thinking about the emotions and needs of the target audience for the data visualization 
+
+Define: Figuring out exactly what your audience needs from the data
+
+Ideate: Generating ideas for data visualization
+
+Prototype: Putting visualizations together for testing and feedback
+
+Test: Showing prototype visualizations to people before stakeholders see them

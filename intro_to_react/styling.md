@@ -23,3 +23,16 @@
             * image
             * size
             * attachment
+        * Fond
+            * family
+            * style
+            * size 
+        * List-Style
+            * image
+            * position
+            * type
+        * Display Property
+            * Flex
+        * Link-Style
+            * a:hover
+            * a:active
